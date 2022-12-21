@@ -4,6 +4,7 @@ import { DashboardComponent } from "./dashboard/dashboard.component";
 import { GraficalComponent } from "./grafical/grafical.component";
 import { ProgressComponent } from "./progress/progress.component";
 import { PagesComponent } from "./pages.component";
+import { BeerComponent } from "./beer/beer.component";
 
 const routes: Routes = [
  {
@@ -13,6 +14,7 @@ const routes: Routes = [
       { path: '', component : DashboardComponent},
       { path: 'progress', component : ProgressComponent},
       { path: 'grafical', component : GraficalComponent},
+      { path: 'beer', component : BeerComponent},
     ]
 },
 ];
